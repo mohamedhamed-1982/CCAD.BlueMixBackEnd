@@ -20,7 +20,7 @@ namespace CCAD.BlueMixBackEnd.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "You entered:"+id;
         }
 
         // POST api/values
